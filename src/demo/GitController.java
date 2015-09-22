@@ -8,9 +8,6 @@ public class GitController {
 	public  void  add(){
 		
 	}
-	
-	
-	
-         public void index(){
-         }
+ public void index(){
+ }
 }
