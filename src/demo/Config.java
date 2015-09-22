@@ -24,11 +24,11 @@ public class Config extends JFinalConfig {
 
 	@Override
 	public void configPlugin(Plugins me) {
-
+		System.out.println("aa");
 		System.out.println("sss");
 		System.out.println("ssss");
 		System.out.println("");
-		System.out.println("aa");
+		
 
 
 	}
