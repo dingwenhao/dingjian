@@ -25,6 +25,7 @@ public class Config extends JFinalConfig {
 	@Override
 	public void configPlugin(Plugins me) {
 		System.out.println("ssss");
+		System.out.println("");
 
 	}
 
