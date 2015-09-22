@@ -30,6 +30,10 @@ public class Config extends JFinalConfig {
 		System.out.println("ssss");
 
 
+
+		System.out.println("");
+
+
 	}
 
 	@Override
