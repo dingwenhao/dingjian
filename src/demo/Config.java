@@ -26,11 +26,7 @@ public class Config extends JFinalConfig {
 	public void configPlugin(Plugins me) {
 
 		System.out.println("sss");
-
 		System.out.println("ssss");
-
-
-
 		System.out.println("");
 		System.out.println("aa");
 
