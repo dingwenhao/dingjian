@@ -32,6 +32,7 @@ public class Config extends JFinalConfig {
 
 
 		System.out.println("");
+		System.out.println("aa");
 
 
 	}
