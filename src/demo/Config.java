@@ -28,6 +28,7 @@ public class Config extends JFinalConfig {
 		System.out.println("sss");
 		System.out.println("ssss");
 		System.out.println("");
+		System.out.println("ssss");
 		
 
 
