@@ -18,7 +18,8 @@ public class Config extends JFinalConfig {
 
 	@Override
 	public void configRoute(Routes me) {
-		me.add("test",TestController.class);
+		me.add("/test",TestController.class);
+		
 
 	}
 

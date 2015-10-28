@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/js/jquery-1.10.2.js"></script>
+<script src="/js/jquery.mobile-1.4.5.js"></script>
+<link  rel="stylesheet" href="/js/jquery.mobile-1.4.5.css"/>
+<meta charset="UTF-8">
+<title>ddddddddddddddddddddd</title>
+</head>
+
+<body>
+<div data-role="page">
+  <div data-role="header">
+  <h1>文本输入</h1>
+  </div>
+
+  <div data-role="content">
+    <form method="post" action="demoform.asp">
+      <div data-role="fieldcontain">
+        <label for="fullname">全名：</label>
+        <input type="text" name="fullname" id="fullname">       
+        <label for="bday">生日：</label>
+        <input type="date" name="bday" id="bday">
+        <label for="email">电邮：</label>
+        <input type="email" name="email" id="email" placeholder="您的邮箱地址..">
+      </div>
+      <input type="submit" data-inline="true" value="提交">
+    </form>
+  </div>
+</div>
+
+</body>
+<script>
+
+ss
+//取链接上的参数
+function getParameterByName(name){    
+	name = name.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");
+	var regex =new RegExp("[\\?&]"+ name +"=([^&#]*)"),        
+	results = regex.exec(location.search);
+	return results ==null?"": decodeURIComponent(results[1].replace(/\+/g," "));
+}ss
+</script>
+</html>
